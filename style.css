@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background-color: blueviolet;
+    height: 645px;
+}
+
+.navbar{
+    width: 1200px;
+    height: 85;
+    margin: 20px;
+}
+.icons{
+    width: 200px;
+    float: left;
+    height: 80px;
+    padding-top: 5PX;
+}
+.BS-png{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid black;
+    margin-left: -10px;
+    margin-top: 3px;
+}
+
+.logo{
+    color: white;
+    font-size: 40px;
+    padding-left: 67px;
+    margin-top: -67px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 80px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 72px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: tomato;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: #a473c5;
+    border: 1px tomato;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: tomato;
+    border: 2px solid tomato;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn: :focus{
+    outline: none;
+}
+
+.srch: :focus{
+    outline: none;
+}
+
+.icons2{
+    width: 400px;
+    height: 400px;
+}
+
+.boy{
+    width: 300px;
+    height: 260px;
+    margin-top: 20px;
+    margin-left: 150px;
+    border-radius: 50%;
+}
+
+.word1{
+    margin-left: 265px;
+    margin-top: 20px;
+    color: white;
+}
+.word2{
+    margin-left: 235px;
+    color: white;
+}
+.word3{
+    margin-top: 80px;
+    margin-left: 240px;
+    color: white;
+}
